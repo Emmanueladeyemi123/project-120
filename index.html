@@ -1,0 +1,70 @@
+<html>
+
+<head>
+  <title>Real Time Image Identification App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <center>
+    <h3 class="text-danger heading">Case study between google lens and mobile net</h3>
+    <br><br>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 heading_div">
+      GOOGLE LENS
+      <span>
+        <img
+          src="https://play-lh.googleusercontent.com/G5oF0mhpOcQzFTrU6TDUL0JoAjzRt38weiZKua7L61WVT1z3dPcE9gUu-W2EwtM9cZU=w240-h480-rw">
+      </span>
+      <h4 class="text-danger">
+        VS
+      </h4>
+      <br>
+      <button class="btn btn-primary">Mobilenet</button>
+      <br><br>
+    </div>
+    <ol>
+      <div class="test_image_and_result col-xs-12">
+
+        <li>
+          <b>Test Image-</b>
+          <img src="pic1.jpg" class="img-responsive pic">
+        </li>
+        <h5></h5>
+        <h5 class="col-sm-4 col-xs-12 " style="background-color:white ; margin-right:20px;">
+          Output on <b>GOOGLE LENS</b>-
+          <span></span>
+        </h5>
+
+        <h5 class="col-sm-4 col-xs-12 "style="background-color:white ;">
+          Output on <b>Mobilenet Model</b>-
+          <span></span>
+        </h5>
+        <div class="mini_result col-xs-12">
+          <h4>Result-</h4>
+          <hr>
+          <h4></h4>
+
+        </div>
+      </div>
+      <br>
+    </ol>
+
+
+  </center>
+
+  <div class="copy_right_footer">
+    Developed by Emmanuel
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
